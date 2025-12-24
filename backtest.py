@@ -140,7 +140,7 @@ st.markdown("""
 
 with st.sidebar:
     st.header("Settings")
-    ticker = st.selectbox("Ticker", ["BNB-USD", "ETH-USD", "SOL-USD", "LINK-USD", "BTC-USD", "XRP-USD", "ADA-USD", "WIF-USD", "BCH-USD"])
+    ticker = st.selectbox("Ticker", ["BNB-USD", "ETH-USD", "SOL-USD", "LINK-USD", "BTC-USD"])
     backtest_start = st.date_input("Backtest Start Date", date(2022, 1, 1))
     backtest_end = st.date_input("Backtest End Date", datetime.now())
     st.divider()
