@@ -1,0 +1,9 @@
+backtrader
+yfinance
+pandas
+plotly
+matplotlib
+statsmodels
+streamlit
+scikit-learn 
+hmmlearn
